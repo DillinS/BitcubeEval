@@ -26,5 +26,20 @@ namespace BitcubeEval.Controllers
 
             return View();
         }
+
+        public ActionResult Friends()
+        {
+            ViewBag.Message = "Your Friends page.";
+
+            return View();
+        }
+
+        public ActionResult Details()
+        {
+            ViewBag.Message = "Your Details page.";
+
+            return View();
+        }
+
     }
 }

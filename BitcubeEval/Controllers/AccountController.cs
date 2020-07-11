@@ -22,6 +22,13 @@ namespace BitcubeEval.Controllers
         {
         }
 
+        public ActionResult Details()
+        {
+            ViewBag.Message = "Your Details page.";
+
+            return View();
+        }
+
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
